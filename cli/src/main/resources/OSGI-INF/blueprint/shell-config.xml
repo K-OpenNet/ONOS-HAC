@@ -44,7 +44,7 @@
             </completers>
         </command>
 
-        <command>
+		<command>
             <action class="org.onosproject.cli.net.FlowObjectiveNextListCommand"/>
         </command>
 
