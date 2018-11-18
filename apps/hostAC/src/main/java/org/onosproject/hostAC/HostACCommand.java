@@ -117,6 +117,7 @@ public class HostACCommand extends AbstractShellCommand {
 				hostACRule = new HostACRule(sIP, dIP, protocolType, dPort);
 			}
 
+			// call ADD and REMOVE
 			HostACStore hostACStore = new HostACStore();
 			switch (type) {
 				case "ADD":
