@@ -56,6 +56,7 @@ public class HostACWebResource extends AbstractWebResource {
 	public Response queryHostACRule() {
 		String result = "";
 		HostACStore hostACStore = new HostACStore();
+		// get all rules
 		for (int i = 0; i < hostACStore.getSize(); i++) {
 			HostACRule hostACRule = hostACStore.getRule(i);
 
