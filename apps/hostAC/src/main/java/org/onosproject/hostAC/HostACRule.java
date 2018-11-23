@@ -10,7 +10,7 @@ public class HostACRule {
 	private IpPrefix dstIP;
 	private String protocolType;
 	private int dstPort;
-	
+
 	public HostACRule(IpPrefix srcIP, IpPrefix dstIP, String protocolType) {
 		this.srcIP = srcIP;
 		this.dstIP = dstIP;
@@ -36,11 +36,13 @@ public class HostACRule {
 		this.protocolType = protocolType;
 		this.dstPort = dstPort;
 	}
-	
+
+	// set source IP
 	public void setSrcIP(IpPrefix srcIP) {
 		this.srcIP = srcIP;
 	}
 	
+	// get source IP
 	public IpPrefix getSrcIP() {
 		return this.srcIP;
 	}
