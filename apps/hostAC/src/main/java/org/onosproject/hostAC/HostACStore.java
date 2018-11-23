@@ -52,6 +52,7 @@ public class HostACStore {
 		return listRule.size();
 	}
 
+	// get rules
 	public static String getRule() {
 		String result = "";
 		HostACStore hostACStore = new HostACStore();
