@@ -66,6 +66,7 @@ public class HostAccessControl {
 
     private final Logger log = LoggerFactory.getLogger(getClass());
 
+	// nessary services
 	@Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
 	protected PacketService packetService;
 
