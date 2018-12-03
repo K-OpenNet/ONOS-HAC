@@ -163,6 +163,7 @@ public class HostAccessControl {
 
 				DeviceId deviceId = context.inPacket().receivedFrom().deviceId();
 
+				// install AC rules
 				FlowRule flowRule = DefaultFlowRule.builder()
 					.forDevice(deviceId)
 					.withCookie(30000)
