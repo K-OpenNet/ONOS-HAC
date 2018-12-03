@@ -134,6 +134,7 @@ public class HostAccessControl {
 					.matchIPSrc(matchIp4SrcPrefix)
 					.matchIPDst(matchIp4DstPrefix);
 
+				// check proto type
 				if (ipv4Protocol == IPv4.PROTOCOL_TCP) {
 					TCP tcpPacket = (TCP) ipv4Packet.getPayload();
 					selectorBuilder.matchIPProtocol(ipv4Protocol)
