@@ -95,6 +95,8 @@ public class HostAccessControl {
 
 		@Override
 		public void process(PacketContext context) {
+
+			// check packets
 			InboundPacket pkt = context.inPacket();
 			Ethernet ethPkt = pkt.parsed();
 			TrafficSelector.Builder selectorBuilder = DefaultTrafficSelector.builder();
