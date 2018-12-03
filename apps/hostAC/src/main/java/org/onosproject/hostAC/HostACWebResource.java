@@ -47,7 +47,7 @@ import java.util.List;
 import static org.onlab.util.Tools.readTreeFromStream;
 
 /**
- * Manage Host Access Control rules.
+ * Manage Host Access Control rules or resources.
  */
 @Path("rules")
 public class HostACWebResource extends AbstractWebResource {
