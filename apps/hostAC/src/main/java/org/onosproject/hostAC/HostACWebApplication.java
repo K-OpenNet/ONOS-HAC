@@ -21,8 +21,9 @@ import org.onlab.rest.AbstractWebApplication;
 import java.util.Set;
 
 /**
- * ACL REST API web application.
+ * ACL REST API web basic application.
  */
+
 public class HostACWebApplication extends AbstractWebApplication {
 	@Override
 	public Set<Class<?>> getClasses() {
