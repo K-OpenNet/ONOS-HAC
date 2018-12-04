@@ -110,6 +110,7 @@ public class HostACCommand extends AbstractShellCommand {
 			sIP = IpPrefix.valueOf(srcIP);
 			dIP = IpPrefix.valueOf(dstIP);
 
+			// check dstPort
 			HostACRule hostACRule;
 			if (dstPort == null) {
 				hostACRule = new HostACRule(sIP, dIP, protocolType);
