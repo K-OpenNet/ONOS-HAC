@@ -46,11 +46,13 @@ public class HostACRule {
 	public IpPrefix getSrcIP() {
 		return this.srcIP;
 	}
-	
+
+	// set destination IP
 	public void setDstIP(IpPrefix dstIP) {
 		this.dstIP = dstIP;
 	}
 	
+	// get destination IP
 	public IpPrefix getDstIP() {
 		return this.dstIP;
 	}
