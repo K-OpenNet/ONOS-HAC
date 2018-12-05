@@ -56,11 +56,13 @@ public class HostACRule {
 	public IpPrefix getDstIP() {
 		return this.dstIP;
 	}
-	
+
+	// set protocol type
 	public void setProtocolType(String protocolType) {
 		this.protocolType = protocolType;
 	}
 
+	// get protocol type
 	public String getProtocolType() {
 		return this.protocolType;
 	}
