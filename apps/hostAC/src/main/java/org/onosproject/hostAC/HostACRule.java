@@ -67,10 +67,12 @@ public class HostACRule {
 		return this.protocolType;
 	}
 
+	// set destination port
 	public void setDstPort(int dstPort) {
 		this.dstPort = dstPort;
 	}
 	
+	// get destination port
 	public int getDstPort() {
 		return this.dstPort;
 	}
