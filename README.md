@@ -1,4 +1,4 @@
-ONOS : Open Network Operating System
+ONOS-HAC: Security-Mode Open Network Operating System with Host-level Access Control
 ====================================
 
 ### What is ONOS?
@@ -23,5 +23,15 @@ performance, scale-out.
   controlled by distributed routing protocols such as BGP.
 * IP-Optical use case demonstration.
 
-Checkout our [website](http://www.onosproject.org) and our
-[tools](http://www.onosproject.org/software/#tools)
+### What is ONOS-HAC?
+ONOS-HAC is a new SDN access control mechanism for high availability, performance, scale-out and security.
+ONOS-HAC supports host-level access control.
+
+## Target Open Source Project
+Security-Mode ONOS: https://wiki.onosproject.org/display/ONOS/Security-Mode+ONOS
+
+## Publications
+[Technical Document](https://github.com/K-OpenNet/K-ONE/blob/master/Technical_Documents/K-ONE_%2339_Security-Mode_ONOS_with_Host-level_Access_Control.pdf)
+
+[ONK 2018 Fall Poster](https://github.com/K-OpenNet/K-ONE/blob/master/Demonstrations/ONK_2018_Fall/Poster3_Extended_Security_Mode_ONOS.pdf)
+
