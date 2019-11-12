@@ -66,7 +66,7 @@ tar_file(
         'tools/test/bin/onos',
     ],
     other_tars = [ '//tools/package:onos-package-runtime' ],
-    flat = True,
+    flat = FALSE,
 )
 
 only_lib_dep_pom(
