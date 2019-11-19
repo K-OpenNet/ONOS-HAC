@@ -247,6 +247,7 @@ ONOS_APPS = [
     '//apps/mcast:onos-apps-mcast-oar',
     '//apps/layout:onos-apps-layout-oar',
     '//apps/imr:onos-apps-imr-oar',
+    '//apps/hostAC:onos-apps-hostAC-oar',
 ]
 
 PROTOCOL_APPS = [
