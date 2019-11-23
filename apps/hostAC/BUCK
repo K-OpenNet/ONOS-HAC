@@ -51,6 +51,10 @@ onos_app (
                 <vnetId>1</vnetId>
             </vnet-perm>
             <vnet-perm>
+                <permission>VNET_READ</permission>
+                <vnetId>2</vnetId>
+            </vnet-perm>
+            <vnet-perm>
                 <permission>VNET_WRITE</permission>
                 <vnetId>*</vnetId>
             </vnet-perm>
