@@ -33,7 +33,7 @@ INSTALL = [
 
     '//incubator/net:onos-incubator-net-install',
     '//incubator/store:onos-incubator-store-install',
-    '//incubator/rpc:onos-incubator-rpc-install',
+
 
     '//core/security:onos-security-install',
 
