@@ -34,10 +34,8 @@ onos_app (
             <app-perm>APP_WRITE</app-perm>
             <app-perm>DEVICE_READ</app-perm>
             <app-perm>CONFIG_READ</app-perm>
-            <app-perm>CONFIG_WRITE</app-perm>
             <app-perm>CLUSTER_READ</app-perm>
             <app-perm>DEVICE_READ</app-perm>
-            <app-perm>TOPOLOGY_READ</app-perm>
             <app-perm>PACKET_READ</app-perm>
             <app-perm>PACKET_WRITE</app-perm>
             <app-perm>PACKET_EVENT</app-perm>
@@ -46,18 +44,6 @@ onos_app (
             <app-perm>FLOWRULE_WRITE</app-perm>
             <app-perm>STORAGE_WRITE</app-perm>
             <app-perm>CLUSTER_WRITE</app-perm>
-            <vnet-perm>
-                <permission>VNET_READ</permission>
-                <vnetId>1</vnetId>
-            </vnet-perm>
-            <vnet-perm>
-                <permission>VNET_READ</permission>
-                <vnetId>2</vnetId>
-            </vnet-perm>
-            <vnet-perm>
-                <permission>VNET_WRITE</permission>
-                <vnetId>*</vnetId>
-            </vnet-perm>
             <java-perm>
                 <classname>org.osgi.framework.AdminPermission</classname>
                 <name>*</name>
