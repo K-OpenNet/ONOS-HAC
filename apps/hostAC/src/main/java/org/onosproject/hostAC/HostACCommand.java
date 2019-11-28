@@ -62,11 +62,12 @@ public class HostACCommand extends AbstractShellCommand {
 		int dPort = 0;
 	
 		if (!(type.equals("ADD") || type.equals("REMOVE") || type.equals("GET"))) {
-			print("Type is ADD, REMOVE, or GET");
+			print("Type must be ADD, REMOVE, or GET");
 			return;
 		}
 
 		if (type.equals("GET")) {
+			print("GET command is executed")
 			HostACStore hostACStore = new HostACStore();
 			String result = hostACStore.getRule();
 			print(result);
@@ -122,9 +123,11 @@ public class HostACCommand extends AbstractShellCommand {
 			HostACStore hostACStore = new HostACStore();
 			switch (type) {
 				case "ADD":
+					print("ADD command is executed")
 					hostACStore.addRule(hostACRule);
 					break;
 				case "REMOVE":
+					print("REMOVE command is executed")
 					hostACStore.removeRule(hostACRule);
 					break;
 				default:
